@@ -92,15 +92,15 @@ var data = d3.json("data/samples.json").then((data) => {
                 gauge: {
                         axis: {range: [null, 9]},
                         steps: [
-                            { range: [0, 1], color: 'rgb(248, 243, 236)' },
-                            { range: [1, 2], color: 'rgb(245, 246, 230)' },
-                            { range: [2, 3], color: 'rgb(233, 230, 202)' },
-                            { range: [3, 4], color: 'rgb(229, 231, 179)' },
-                            { range: [4, 5], color: 'rgb(213, 228, 157)' },
-                            { range: [5, 6], color: 'rgb(183, 204, 146)' },
-                            { range: [6, 7], color: 'rgb(140, 191, 136)' },
-                            { range: [7, 8], color: 'rgb(138, 187, 143)' },
-                            { range: [8, 9], color: 'rgb(133, 180, 138)' },
+                            { range: [0, 1], color: 'rgb(14, 77, 100)' },
+                            { range: [1, 2], color: 'rgb(19, 113, 119)' },
+                            { range: [2, 3], color: 'rgb(24, 137, 119)' },
+                            { range: [3, 4], color: 'rgb(29, 154, 108)' },
+                            { range: [4, 5], color: 'rgb(57, 169, 107)' },
+                            { range: [5, 6], color: 'rgb(86, 184, 112)' },
+                            { range: [6, 7], color: 'rgb(153, 212, 146)' },
+                            { range: [7, 8], color: 'rgb(191, 225, 176)' },
+                            { range: [8, 9], color: 'rgb(222, 237, 207)' },
                         ]
                     }
                 }
